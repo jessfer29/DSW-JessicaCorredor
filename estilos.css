@@ -1,0 +1,100 @@
+.titulo{
+    text-align: center;
+    
+}
+h1 {
+    color:white;
+    font-family:'Times New Roman', Times, serif ;
+}
+h2{
+    color: black
+  
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+}
+h3{
+    font-family: 'Times New Roman', Times, serif;
+}
+h4{
+    font-family: 'Times New Roman', Times, serif;
+    color:  #F0B429;
+}
+.perro{
+    width: 1000px;
+    margin: 60px auto;
+    background:#F0B429;  
+}
+
+.perro li{
+    list-style: none;
+    
+}
+.a > li{
+   position: relative;
+    display:  inline-block;
+}
+.a> li>a{
+    display: block;
+    padding: 15px 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.a li a:hover{
+    color: yellow;
+  
+}
+
+.b{
+    position: absolute;
+   background: #F0B429;
+   width: 100%;
+   visibility: hidden;
+}
+.b li a{
+display: block;
+padding: 100 px;
+color:white;
+text-decoration: none;
+
+}
+.a li:hover .b{
+visibility: visible;
+}
+
+
+
+.c{
+    position: absolute;
+   background: #F0B429;
+   width: 100%;
+   visibility: hidden;
+}
+.c li a{
+display: block;
+padding: 100 px;
+color:white;
+text-decoration: none;
+
+}
+.a li:hover .c{
+visibility: visible;
+}
+
+.d{
+    position: absolute;
+   background: #F0B429;
+   width: 100%;
+   visibility: hidden;
+}
+.d li a{
+display: block;
+padding: 100 px;
+color:white;
+text-decoration: none;
+
+}
+.a li:hover .d{
+visibility: visible;
+}
